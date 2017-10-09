@@ -1,0 +1,21 @@
+{
+  "name": "microservice-cache-middleware",
+  "version": "1.0.0",
+  "description": "Cache request in node apps",
+  "main": "index.js",
+  "repository": "https://github.com/Vizzuality/microservice-cache-middleware",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "raul.requero <raul.requero@vizzuality.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "bytes": "^3.0.0",
+    "etag": "^1.8.1",
+    "koa-is-json": "^1.0.0",
+    "redis": "^2.8.0",
+    "stream-to-array": "^2.3.0"
+  }
+}
